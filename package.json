@@ -1,0 +1,22 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "assert.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TuanNguyen1010/Note_on_JS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TuanNguyen1010/Note_on_JS/issues"
+  },
+  "homepage": "https://github.com/TuanNguyen1010/Note_on_JS#readme",
+  "dependencies": {
+    "http-server": "^0.12.0"
+  }
+}
