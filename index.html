@@ -13,7 +13,16 @@
     <div id= "app"> Hello </div>
     <script src="./note-controller.js"></script>
     <script src="./note-controller-tests.js"></script>
+    <script> 
+    var noteList = new NoteListModel();
+    noteList.add("hi")
+    noteList.add('2nd add')
+    noteList.add('3rd add')
+    var noteController = new NoteController(noteList)
+    noteController.displayHTML()
+    </script>
   </head>
   <body>
   </body>
 </html>
+
